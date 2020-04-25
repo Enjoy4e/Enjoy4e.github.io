@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  background-image: url('fon.jpg');
+  -webkit-background-size; cover;
+  background-size: cover;
+}
+.Authorization{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.form{
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 10px 15px 10px;
+  width: 330px;
+  border-radius: 10px 10px 10px 10px;
+}
+.form a.button{
+  text-decoration: none;
+  transition: .5s;
+  color: #ebebeb;
+}
+.form a.button:hover{
+  color: #c7c7c7;
+}
+.form a.Get{
+  text-decoration: none;
+  transition: .5s;
+  color: #000000;
+}
+.form a.Get:hover{
+  color: #858585;
+}
+.form input{
+  display: block;
+  width: 100%;
+}
+.tab-form{
+  background-color: #fff;
+  padding: 30px 20px 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+label{
+  color: #fff;
+  font-weight: 600;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 3px 3px 0 0;
+  margin-bottom: -1px;
+
+}
+label{
+  background-color: #fff;
+  color: #404040;
+}
+/*Формы*/
+.tab-form input{
+  font-size: 16px;
+  border: 2px solid #e9eaea;
+  padding: 12px 14px;
+  box-sizing: border-box;
+  margin-bottom: 22px;
+  color: #black;
+  outline: none;
+}
+::-webkit-input-placeholder {color:#c4c9c9;}/* webkit */
+::-moz-placeholder          {color:#298cad;}/* Firefox 19+ */
+:-moz-placeholder           {color:#298cad;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#298cad;}/* IE */
+a.button{
+  background: #000000;
+  color: #white;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  line-height: 46px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+a.Get{
+  margin-top: 10px;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+/* Плавающий текст */
+.box-input {
+  position: relative;
+}
+.box-input input {
+   border: none;
+   border-bottom: 2px solid #e9eaea;
+   padding: 10px 5px;
+}
+.box-input label {
+   position: absolute;
+   top: 0;
+   left: -10px;
+   padding-top: 2px;
+   color: #c4c9c9;
+   transition: .5s;
+   pointer-events: none;
+}
+.box-input input:focus ~ label,
+.box-input input:valid ~ label {
+   top: -20px;
+   font-size: 12px;
+   color: #000000;
+}
+.form label.auth{
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  line-height: 46px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
